@@ -47,4 +47,16 @@
 5. בדיקה חיה בסטודיו (`npx remotion studio`) אחרי כל שינוי.
 6. תיקון בעיות RTL בכתוביות העבריות.
 7. מעבר למודל Gemini Pro לאחר שהמכסה של Flash הסתיימה.
-8. רינדור
+8. רינדור סופי לקובץ MP4 (`npx remotion render src/index.ts TimeUpCommercial output/final.mp4`).
+9. בדיקת אורך וידאו (60 שניות בדיוק) ותקינות כתוביות עברית.
+10. תיעוד מלא: README, PRD, PLAN, TODO, PROMPTS והעלאה ל-GitHub.
+
+## החלטות עיצוביות מרכזיות
+
+| החלטה | נימוק |
+|---|---|
+| 7 רכיבי סצנה נפרדים | מודולריות מלאה — כל סצנה ניתנת לשינוי ללא השפעה על האחרות |
+| script.json כמקור אמת יחיד | עקרון Single Source of Truth — שינוי טקסט ב-JSON מתעדכן בכל הסצנות |
+| Tailwind v4 + Remotion | עיצוב מהיר ועקבי עם class utilities, ללא CSS ידני מיותר |
+| DynamicGradient כ-shared component | עקביות ויזואלית בין כל הסצנות ללא כפילות קוד |
+| 60fps במקום 30fps | חלקות אנימציה מרבית לסרטון פרסומי מסחרי |
