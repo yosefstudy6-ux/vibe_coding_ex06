@@ -89,6 +89,7 @@ text
 | כלי / ספרייה | תפקיד |
 |---|---|
 | Remotion + React | מנוע בניית הוידאו הפרוגרמטי |
+| Tailwind CSS (v4) | עיצוב ה-UI של רכיבי הסצנות (רקעים, גרדיאנטים) |
 | TypeScript | שפת תכנות עם type-safety |
 | Google Gemini Pro | כתיבת קוד אנימציה מפרומפט מפורט |
 | Claude Skills (json-to-remotion) | מיפוי script.json לרכיבי Sequence |
@@ -180,6 +181,7 @@ npx remotion render src/index.ts TimeUpCommercial output/final.mp4
 - [`PLAN.md`](./PLAN.md) - תכנון מפורט של כל סצנה ותזמון
 - [`TODO.md`](./TODO.md) - רשימת משימות שהושלמו לאורך הפרויקט
 - [`script.json`](./script.json) - תסריט המקור בפורמט JSON
+- [`PROMPTS.md`](./PROMPTS.md) - תיעוד הפרומפטים ששימשו ליצירת הקוד עם AI
 
 ## רישיון וקרדיטים
 
