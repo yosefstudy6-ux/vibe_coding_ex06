@@ -174,26 +174,31 @@ npx remotion render src/index.ts TimeUpCommercial output/final.mp4
 - [x] מסמכי PRD, PLAN, TODO נפרדים ומלאים
 - [x] קוד TypeScript ללא שגיאות
 - [x] מבנה תיקיות מסודר עם הפרדה בין קוד, נכסים, ותיעוד
-## צילומי מסך ותהליך עבודה
+## צילומי מסך ותיעוד ביצוע
 
-### עבודה עם Skills ו-Gemini CLI
+### שילוב Skills ועבודה עם Gemini CLI
 
-![בחירת Remotion Skills](./docs/screenshots/skills-selection.jpg)
+הפרויקט נבנה באמצעות Gemini CLI ובשילוב Remotion Skills ליצירת רכיבי Motion Graphics, תיקון בעיות טכניות וריכוז הטקסטים ב-`script.json`.
 
-![Gemini CLI — תהליך עבודה](./docs/screenshots/gemini-workflow.jpg)
+![בחירת Remotion Skills](docs/screenshots/skills-selection.png)
 
-### תצוגה מקדימה ב-Remotion Studio
+![Gemini CLI — תהליך עבודה](docs/screenshots/gemini-workflow.png)
 
-![Remotion Studio — סצנת פתיחה](./docs/screenshots/studio-opening.jpg)
+### בדיקה ב-Remotion Studio
 
-![Remotion Studio — סצנת פתרון](./docs/screenshots/studio-solution.jpg)
+הקומפוזיציה `TimeUpCommercial` נבדקה באופן אינטראקטיבי באמצעות `npx remotion studio`, כולל ציר זמן, כתוביות RTL ותצוגה מקדימה של סצנות הפתיחה והפתרון.
 
-### בדיקות ורינדור סופי
+![Remotion Studio — סצנת הפתיחה](docs/screenshots/studio-opening.png)
 
-![בדיקת TypeScript ללא שגיאות](./docs/screenshots/typescript-check.jpg)
+![Remotion Studio — סצנת הפתרון](docs/screenshots/studio-solution.png)
 
-![רינדור MP4 סופי](./docs/screenshots/render-success.jpg)
+### אימות קוד ורינדור
 
+לפני הרינדור הסופי הורצה הפקודה `npx tsc --noEmit`, שהסתיימה ללא שגיאות TypeScript. לאחר מכן בוצע רינדור מוצלח של הקומפוזיציה `TimeUpCommercial` לקובץ `output/final.mp4`.
+
+![בדיקת TypeScript ללא שגיאות](docs/screenshots/typescript-check.png)
+
+![רינדור MP4 סופי](docs/screenshots/render-success.png)
 ## קבצים נלווים
 
 - [`PRD.md`](./PRD.md) - הגדרת המוצר, קהל מטרה, ומסר מרכזי
