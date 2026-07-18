@@ -69,23 +69,27 @@ TimeUp פונה לאנשים עמוסים שמאבדים שליטה על סדר 
 - CTA ברור וקריא בסיום הפרסומת.
 
 ## ארכיטקטורת הפרויקט
+
+~~~
 videoapp/
 ├── src/
-│ ├── Composition.tsx # קומפוזיציית הוידאו הראשית (TimeUpCommercial)
-│ ├── index.ts # נקודת כניסה של Remotion
-│ └── components/ # רכיבי אנימציה לפי סצנה
+│   ├── Composition.tsx
+│   ├── index.ts
+│   └── components/
 ├── public/
-│ └── song.mp3 # פסקול הפרסומת
+│   └── song.mp3
 ├── output/
-│ └── final.mp4 # הוידאו הסופי המוגש
-├── script.json # תסריט הכתוביות והתזמונים
-├── PRD.md # מסמך דרישות מוצר
-├── PLAN.md # תוכנית עבודה מפורטת
-├── TODO.md # רשימת משימות שהושלמו
-├── README.md # מסמך זה
+│   └── final.mp4
+├── docs/
+│   └── screenshots/
+├── script.json
+├── PRD.md
+├── PLAN.md
+├── TODO.md
+├── PROMPTS.md
+├── README.md
 └── .gitignore
-
-text
+~~~
 
 ## טכנולוגיות ששימשו
 
