@@ -26,7 +26,6 @@ export const AlarmClock: React.FC<AlarmClockProps> = ({
     <div
       style={{
         transform: `translate(${shakeX}px, ${shakeY}px) rotate(${shakeRotate}deg)`,
-        transition: "transform 0.05s ease-out",
       }}
       className="relative w-64 h-64 flex items-center justify-center"
     >
