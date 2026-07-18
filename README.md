@@ -174,6 +174,25 @@ npx remotion render src/index.ts TimeUpCommercial output/final.mp4
 - [x] מסמכי PRD, PLAN, TODO נפרדים ומלאים
 - [x] קוד TypeScript ללא שגיאות
 - [x] מבנה תיקיות מסודר עם הפרדה בין קוד, נכסים, ותיעוד
+## צילומי מסך ותהליך עבודה
+
+### עבודה עם Skills ו-Gemini CLI
+
+![בחירת Remotion Skills](./docs/screenshots/skills-selection.jpg)
+
+![Gemini CLI — תהליך עבודה](./docs/screenshots/gemini-workflow.jpg)
+
+### תצוגה מקדימה ב-Remotion Studio
+
+![Remotion Studio — סצנת פתיחה](./docs/screenshots/studio-opening.jpg)
+
+![Remotion Studio — סצנת פתרון](./docs/screenshots/studio-solution.jpg)
+
+### בדיקות ורינדור סופי
+
+![בדיקת TypeScript ללא שגיאות](./docs/screenshots/typescript-check.jpg)
+
+![רינדור MP4 סופי](./docs/screenshots/render-success.jpg)
 
 ## קבצים נלווים
 
