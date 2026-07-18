@@ -30,7 +30,6 @@ export const Scene3: React.FC = () => {
         flexDirection: 'column', 
         padding: '40px 20px',
         boxShadow: '0 50px 100px rgba(0,0,0,0.5)',
-        transition: 'transform 0.1s linear',
         position: 'relative',
         overflow: 'hidden'
       }}>
